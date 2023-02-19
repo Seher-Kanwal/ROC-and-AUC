@@ -52,3 +52,5 @@ There are also some disadvantages to using the ROC curve and AUC as evaluation m
     The ROC curve and AUC do not provide direct insight into the underlying decision boundary or the relative importance of different features in the classifier.
 
 Overall, the benefits of the ROC curve and AUC as evaluation metrics in machine learning outweigh their disadvantages, and they are widely used in binary classification tasks.
+
+
