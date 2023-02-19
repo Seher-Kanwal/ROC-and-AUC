@@ -10,7 +10,11 @@ AUC is a metric that quantifies the overall performance of a classifier by compu
 
 __AUC is often used as a single-number summary of a classifier's performance__, as it is more robust to class imbalance and different threshold choices than other metrics such as accuracy, precision, or recall.
 
-## Why to use?
+# When and Why to use?
+
+
+![image](https://user-images.githubusercontent.com/92606737/219924741-4c5249a4-fd02-448a-9ee1-84955337421e.png)
+
 
 ROC and AUC are important evaluation metrics in machine learning for binary classification tasks, as they provide valuable insights into the performance of a classifier and can help in various ways:
 
