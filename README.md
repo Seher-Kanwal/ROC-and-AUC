@@ -16,14 +16,18 @@ ROC and AUC are important evaluation metrics in machine learning for binary clas
 
 - __Model selection__
 
-ROC and AUC can help in selecting the best model among multiple classifiers. A classifier with a higher AUC score is generally considered to be better at distinguishing between positive and negative examples and may be preferred over other models with lower AUC scores.
+    ROC and AUC can help in selecting the best model among multiple classifiers. A classifier with a higher AUC score is generally considered to be better at distinguishing between positive and negative examples and may be preferred over other models with lower AUC scores.
 
 - __Threshold tuning__
 
-ROC and AUC can help in selecting an optimal threshold for classification. The ROC curve shows the tradeoff between sensitivity and specificity at different threshold values, allowing the user to choose a threshold that balances the two measures depending on their specific needs.
+    ROC and AUC can help in selecting an optimal threshold for classification. The ROC curve shows the tradeoff between sensitivity and specificity at different threshold values, allowing the user to choose a threshold that balances the two measures depending on their specific needs.
 
-Performance comparison: ROC and AUC provide a standardized way to compare the performance of different classifiers on the same dataset. A higher AUC score indicates better performance, regardless of the specifics of the classifiers or the dataset.
+- __Performance comparison__
 
-Robustness to class imbalance: ROC and AUC are more robust to class imbalance than other metrics such as accuracy, precision, or recall. This is because they focus on the tradeoff between true positives and false positives, which is less affected by class imbalance.
+    ROC and AUC provide a standardized way to compare the performance of different classifiers on the same dataset. A higher AUC score indicates better performance, regardless of the specifics of the classifiers or the dataset.
+
+- __Robustness to class imbalance__
+    
+    ROC and AUC are more robust to class imbalance than other metrics such as accuracy, precision, or recall. This is because they focus on the tradeoff between true positives and false positives, which is less affected by class imbalance.
 
 Overall, ROC and AUC are valuable tools for evaluating, selecting, and tuning binary classification models in machine learning.
